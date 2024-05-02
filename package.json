@@ -9,10 +9,8 @@
     "build": "vite build && cp -r dist docs",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-
     "predeploy": "npm run build",
-    "deploy": "rm -rf docs && npm run build && mv build docs"
-
+    "deploy": "rm -rf docs && vite build && mv build dist"
   },
   "dependencies": {
     "@emotion/react": "^11.11.4",
