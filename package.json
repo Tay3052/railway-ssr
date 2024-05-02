@@ -10,7 +10,8 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "rm -rf docs && vite build && mv build dist"
+    "deploy": "vite build && mv dist docs",
+    "git": "git add . && git commit -m 'update' && git push"
   },
   "dependencies": {
     "@emotion/react": "^11.11.4",
