@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://tay3052.github.io/railway-ssr/",
+  "homepage": "https://Tay3052.github.io/railway-ssr/",
   "scripts": {
     "dev": "vite",
     "build": "vite build && cp -r dist docs",
